@@ -1,0 +1,46 @@
+/* ---- Box: min/max размеры ---- */
+
+.minmax-box {
+  width: 100%;
+  min-width: 200px;
+  max-width: 400px;
+  min-height: 100px;
+  max-height: 200px;
+  background: #e8ffeb;
+  border: 2px solid #3cb34a;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+/* ---- Overflow ---- */
+
+.overflow-box {
+  width: 250px;
+  height: 80px;
+  border: 2px solid #d19b3c;
+  background: #fff8e0;
+  padding: 8px;
+  overflow: auto; /* можно прокручивать, если текста много */
+  margin-bottom: 20px;
+}
+
+/* ---- line-height & text-align ---- */
+
+.text-example {
+  text-align: center;
+  line-height: 2;
+  background: #e0f0ff;
+  padding: 12px;
+  border: 1px solid #4a80d1;
+  margin-bottom: 20px;
+}
+
+/* ---- Цвет текста и фон ---- */
+
+.color-text {
+  color: #a31717;
+  background: #ffe0e0;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
